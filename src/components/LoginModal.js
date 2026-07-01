@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { FaCamera, FaEnvelope, FaLock, FaGoogle, FaApple, FaTimes } from 'react-icons/fa'
+import { FaEnvelope, FaLock } from 'react-icons/fa'
 
 function LoginModal({ show, onHide }) {
   const navigate = useNavigate()

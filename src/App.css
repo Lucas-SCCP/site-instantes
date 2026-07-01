@@ -140,6 +140,25 @@ body,
   color: #475569;
 }
 
+.login-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  color: #A1A1A1;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  background: transparent;
+}
+
+.login-button:hover {
+  background: #EEE;
+}
+
 /* Login button on home navbar */
 .btn-login-nav {
   text-decoration: none;

@@ -10,22 +10,21 @@ function NavbarComponent({ onLoginClick }) {
         </Navbar.Brand>
 
         {/* Botão de login direto no mobile */}
-        <a
+        <button
           className="btn-login-nav d-lg-none"
           onClick={onLoginClick}
         >
           Login
-        </a>
+        </button>
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
-            <a
-              className="btn-login-nav d-none d-lg-block"
+            <button
+              className="login-button d-none d-lg-block"
               onClick={onLoginClick}
-              size="sm"
             >
               Login
-            </a>
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Container>
