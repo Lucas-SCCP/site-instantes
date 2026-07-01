@@ -1,0 +1,13 @@
+---
+description: Template de site cliente (em construção)
+globs: "src/**/*.{js,jsx}"
+alwaysApply: true
+---
+
+# site-template
+
+Leia `docs/AI_CONTEXT.md`.
+
+- **Em construção** — reescrita prevista com lib-pixelbuild refatorada.
+- **Não usar** fluxo `/website/{id}/structure` — endpoint removido.
+- Dependência `website-lib` é legado; repo é lib-pixelbuild.
