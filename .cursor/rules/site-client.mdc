@@ -10,4 +10,4 @@ Leia `docs/AI_CONTEXT.md`.
 
 - **Em construção** — reescrita prevista com lib-pixelbuild refatorada.
 - **Não usar** fluxo `/website/{id}/structure` — endpoint removido.
-- Dependência `website-lib` é legado; repo é lib-pixelbuild.
+- Dependência: `lib-pixelbuild`.

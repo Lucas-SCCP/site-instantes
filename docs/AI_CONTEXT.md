@@ -7,7 +7,7 @@ Template base para novos sites cliente PixelBuild.
 Este projeto **será reescrito** conforme o novo padrão de `lib-pixelbuild` e o **novo endpoint público** da API.
 
 O código atual ainda usa:
-- pacote npm legado **`website-lib`**
+- pacote npm **`lib-pixelbuild`**
 - `ConstructorService.fetchWebsiteFromApi` (chama endpoint `/structure` **removido**)
 - exports antigos (`MainLayout`, `PageRenderer`, `Loading`)
 
@@ -24,7 +24,7 @@ Shell React mínimo que:
 
 - Create React App (`react-scripts`)
 - React 18, React Router 6, Bootstrap 5
-- Dependência legada: `website-lib` → repo `lib-pixelbuild`
+- Dependência: `lib-pixelbuild`
 - Deploy: Vercel (`vercel.json`, sitemap, robots)
 
 ## Bootstrap atual (`src/App.js`) — legado
